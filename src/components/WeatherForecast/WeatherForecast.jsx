@@ -4,10 +4,10 @@ const DailyWeatherList = (props) => {
     const { dailyWeather } = props;
     return (
         <section className='weather'>
-            <h3>{dailyWeather.day}</h3>
+            <h2>{dailyWeather.day}</h2>
             <div><img src={dailyWeather.img} alt={dailyWeather.imgAlt}/> </div> 
-            <div><span>conditions: </span> {dailyWeather.conditions}</div>
-            <div><span>time: </span> {dailyWeather.time} </div>
+            <p><span>conditions: </span> {dailyWeather.conditions}</p>
+            <p><span>time: </span> {dailyWeather.time} </p>
         </section>
     )
 }
