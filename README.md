@@ -1,8 +1,14 @@
-# Welcome to Reactville, a constantly evolving virtual metropolis. Let’s build this digital town together, one component at a time.
+# Welcome to Reactville!
+
+## a constantly evolving virtual metropolis. Let’s build this digital town together, one component at a time.
 
 ![alt text](image.png)
 
-## Reactville Weather Station is at the heart of the town, keeping everyone informed about the ever-changing weather. They’re in need of a tech upgrade and have called on you to develop their new 5-Day Weather Forecast App.
+### Reactville Weather Station is at the heart of the town, keeping everyone informed about the ever-changing weather. 
+
+### They’re in need of a tech upgrade and have called on you to develop their new 5-Day Weather Forecast App. 
+
+### And here it is : 
 
 ![alt text](image-1.png)
 

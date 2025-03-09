@@ -1,10 +1,6 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import DailyWeatherList from './components/WeatherForecast/WeatherForecast.jsx'
-import './components/WeatherForecast/WeatherForecast.css'
 
+import './App.css';
+import DailyWeatherList from './components/WeatherData/WeatherData.jsx';
 
 function App() {
   
@@ -52,9 +48,9 @@ function App() {
     <h1>Local Weather</h1>
     <section> 
         {
-          weatherForecasts.map((dailyWeather) => {
+          weatherForecasts.map((dailyWeather, idx) => {
             return <DailyWeatherList 
-              key={dailyWeather.day}
+              key={idx}
               dailyWeather = {dailyWeather} />;
           })
         }
